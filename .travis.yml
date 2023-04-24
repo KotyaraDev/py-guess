@@ -17,9 +17,9 @@ matrix:
       os: windows
       language: shell
       before_install:
-        - choco install python --version 3.11.0
-        - choco install make
+      - choco install python --version 3.11.0 -y
+      - set PATH=C:\Python311;%PATH%
       env: PATH="/c/Python311:/c/Python311/Scripts:$PATH"
-
+      
 script:
   - python main.py
