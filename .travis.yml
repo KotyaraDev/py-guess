@@ -1,1 +1,6 @@
 language: python
+python:
+  - "stable"
+
+script:
+  - python main.py
