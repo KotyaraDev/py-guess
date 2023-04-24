@@ -23,6 +23,4 @@ Controls: The game will be run in the Python console. To start the game you need
 
 Good luck in the game!
 
-
-[![Build Status](https://app.travis-ci.com/KotyaraDev/py-guess.svg?branch=main)](https://github.com/KotyaraDev/py-guess/releases)
 > Note: This is my `first` game.
